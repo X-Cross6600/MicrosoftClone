@@ -1,0 +1,16 @@
+body {
+  color: red;
+  width: 1000px;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    color: blue;
+  }
+}
+
+@media (orientation: landscape) {
+  h2 {
+    color: green;
+  }
+}
